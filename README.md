@@ -1,3 +1,3 @@
 # highcontrast
 
-[Explainer](highcontrast/explainer.md)
+[Explainer](explainer.md)
