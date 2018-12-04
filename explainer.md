@@ -4,7 +4,7 @@
 
 High contrast is a [Windows based accessibility feature](https://docs.microsoft.com/en-us/windows/desktop/w8cookbook/high-contrast-mode) that increases the readability of text through color contrast. Individuals with low vision may find it difficult to read text on their screen due to poor contrast between foreground and background colors. High contrast is a useful feature in increasing the readability of screen-based text for these individuals.
 
-Windows currently supports built-in [high contrast color themes](https://docs.microsoft.com/en-us/windows/uwp/design/accessibility/high-contrast-themes) such as the more popular "black-on-white" and "white-on-black" themes, as well as the ability for users to customize their own themes. These color schemes are propagated into website styles to provide increased readability, allowing a seamless high contrast experience across the Windows OS and various applications when high contrast is enabled.
+Windows currently supports built-in [high contrast color themes](https://docs.microsoft.com/en-us/windows/uwp/design/accessibility/high-contrast-themes) such as the more popular "black-on-white" and "white-on-black" themes, as well as the ability for users to customize their own themes. These color schemes are propagated into website styles to provide increased readability, allowing a seamless experience across the Windows OS and various applications when high contrast is enabled.
 
 Edge is currently the only browser to support the high contrast feature using Windows high contrast themes. When high contrast is enabled, Chrome will display a popup prompt to install the [High Contrast extension](https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph). This extension uses CSS/SVG filter effects overlaid on the entire webpage and uses its own predefined themes. This does not enable a seamless experience for users when in high contrast.
 
@@ -79,7 +79,7 @@ Value | Description
     <p>Some Text</p>
 <body>
 ```
-In the HTML code snippet above, ```"Some Text"``` will appear orange whether or not high contrast is enabled because ```-ms-high-contrast-adjust``` is set to ```none```. Thus, in the above example, high contrast will have essentially no effect on the color of elements within the ```body``` tag.
+In the HTML code snippet above, ```"Some Text"``` will appear orange whether or not high contrast is enabled because ```-ms-high-contrast-adjust``` is set to ```none```, effectively preventing high contrast from affecting its color.
 
 ## System Colors
 High contrast relies on system color keywords, which are deprecated from the CSS Color standard in both [Level 3](https://drafts.csswg.org/css-color-3/#css2-system) and [Level 4](https://drafts.csswg.org/css-color-4/#system-colors). Blink currently does have support for these keywords, but they're currently mapped to hard-coded values instead of being plumbed through to the system color API. There is a derived class ```LayoutThemeWin```, but it currently doesn't add any functionality. Functionality can be added here to support the required system color keywords.
