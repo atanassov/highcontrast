@@ -99,7 +99,7 @@ In addition to existing CSS system color keywords, an additional system color ke
 ## Ensuring Readability
 The goal of high contrast is to ensure a certain level of contrast between foreground and background colors. A problem arises with images. If text lies atop an image, altering the color of the text will not ensure readability. One option would be to override images to allow text readability. This solution, however, is not an ideal one, as it can completely change the context of a webpage for users using high contrast.
 
-Instead of completely removing images altogther, a preferred solution is to draw a so-called "readability backplate" behind all text to ensure contrast for text lying above images, as seen in the screenshot below. This solution is currently used in Edge to ensure the readability of text in high contrast.
+Instead of completely removing images alltogther, a preferred solution is to draw a so-called "readability backplate" behind all text to ensure contrast for text lying above images, as seen in the screenshot below. This solution is currently used in Edge to ensure the readability of text in high contrast.
 
 ![High contrast readability backplate](HighContrastReadabilityBackplate.jpg)
 
