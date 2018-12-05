@@ -13,11 +13,11 @@ Edge is currently the only browser to support the high contrast feature using Wi
 1. User enables high contrast on their Windows device.
 ![step 1](TurnOnHighContrast.jpg)
 2. User opens the Chrome browser, and the chosen high contrast theme ("white-on-black" in this case) is used throughout their entire browsing experience.
-![step 2](BrowserHighContrast.jpg)
+![step 2](BrowserInHighContrast.jpg)
 3. User turns high contrast off.
 ![step 3](TurnOffHighContrast.jpg)
 4. The opened browser is dynamically updated to use the original site-defined colors.
-![step 4](BrowserNoHighContrast.jpg)
+![step 4](BrowserWithoutHighContrast.jpg)
 
 ## CSS Media Query
 
