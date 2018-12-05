@@ -115,7 +115,7 @@ The goal of high contrast is to ensure a certain level of contrast between foreg
 
 Instead, a preferred solution is to draw a so-called "readability backplate" behind all text to ensure contrast for text lying above images, as seen in the screenshot below. This solution is currently used in Edge to ensure the readability of text in high contrast.
 
-![High contrast readability backplate](ReadabilityBackplate.jpg)
+![High contrast readability backplate](HighContrastReadabilityBackplate.jpg)
 
 ## Open questions
 
