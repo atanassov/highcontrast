@@ -6,7 +6,7 @@ High contrast is a [Windows based accessibility feature](https://docs.microsoft.
 
 Windows currently supports built-in [high contrast color themes](https://docs.microsoft.com/en-us/windows/uwp/design/accessibility/high-contrast-themes) such as the more popular "black-on-white" and "white-on-black" themes, as well as the ability for users to customize their own themes. These color schemes are propagated into website styles to provide increased readability, allowing a seamless experience across the Windows OS and various applications when high contrast is enabled.
 
-Edge is currently the only browser to support the high contrast feature using Windows high contrast themes. When high contrast is enabled, Chrome will display a popup prompt to install the [High Contrast extension](https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph). This extension uses CSS/SVG filter effects overlaid on the entire webpage and uses its own predefined themes. This does not enable a seamless experience for users when in high contrast.
+Edge is currently the only browser to support the high contrast feature using Windows high contrast themes. When high contrast is enabled, Chrome will display a popup prompt to install the [High Contrast extension](https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph). This extension uses CSS/SVG filter effects overlaid on the entire webpage using its own predefined themes. This does not enable a seamless experience for users when in high contrast.
 
 ## User Flow
 
