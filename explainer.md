@@ -57,7 +57,7 @@ In the HTML code snippet above, ```"Some Text"``` will appear orange when high c
 
 ## CSS Properties
 
-To provide readability between foreground and background colors, high contrast color schemes would override defined webpage style for the following CSS properties:
+To provide readability between foreground and background colors, high contrast color schemes would override defined webpage styles for the following CSS properties:
 * ```background-color```
 * ```color```
 * ```border-bottom-color```
