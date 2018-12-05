@@ -21,7 +21,7 @@ Edge is currently the only browser to support the high contrast feature using Wi
 
 ## CSS Media Query
 
-In order to allow developer defined high contrast rules for webpages, a [high contrast media query type](https://msdn.microsoft.com/en-us/library/hh771830(v=vs.85).aspx) would be added called ```-ms-high-contrast-adjust```. This CSS media query type is currently supported by Edge. If an ```-ms-high-contrast-adjust``` media query evaluates to true, any styles defined within that media query *will* be used when in high contrast and will *not* be overridden by the high contrast feature.
+In order to allow developer defined high contrast rules for webpages, a [high contrast media query type](https://msdn.microsoft.com/en-us/library/hh771830(v=vs.85).aspx) would be added called ```-ms-high-contrast```. This CSS media query type is currently supported by Edge. If an ```-ms-high-contrast``` media query evaluates to true, any styles defined within that media query *will* be used when in high contrast and will *not* be overridden by the high contrast feature.
 
 #### Possible values
 
